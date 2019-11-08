@@ -1,0 +1,282 @@
+
+/* Clearing defaults */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------Variables--------------------------- */
+:root{
+    --trolley-grey:#7E7E7E;
+    --arsenic:#424242;
+    --paradise-pink:#EE4266;
+    --medium-blue:#0000DA;
+    --jet:#303030;
+    --rubik: 'Rubik', sans-serif;
+    --work-sans:'Work Sans', sans-serif;
+    --quicksand:'Quicksand', sans-serif;
+    --oxygen:'Oxygen', sans-serif;
+    --dancing-script:'Dancing Script', cursive;
+    --domine:'Domine', serif;
+    --cinzel:'Cinzel', serif;
+
+}
+
+/* ----------------------header--------------------------- */
+
+body::before{
+    /* background: url("showcase.jpg"); */
+    background-color: #333333;
+    opacity: 0.1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-repeat:no-repeat;
+    /* filter: grayscale(40%); */
+    z-index: -99;
+}
+
+
+#brand-logo{
+
+    background: url("wave.svg")no-repeat, center, center;
+    background-size: cover;
+    
+    height: 9vh;
+    width: 100vw;
+    z-index:50 ;
+     
+   }
+
+#brand-logo #brand-container{
+    display: flex;
+    height: 100%;;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#brand-logo #brand-container img{
+   width: 60px;
+   height: 50px;
+   
+}
+#brand-logo #brand-container h1{
+color: var(--paradise-pink);
+font-family: var(--quicksand);
+font-size: 2.5rem;
+margin-left: 10px;
+}
+
+#brand-logo #brand-container h2{
+    color: var(--paradise-pink);
+    font-family: var(--quicksand);
+    font-size: 2rem;
+    margin-right: 10px;
+
+}
+
+/* ------------------------navigation section--------------------------- */
+
+#main-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    position: fixed;
+    
+    
+    
+}
+
+#main-nav .nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style: none;
+    
+    
+}
+
+#main-nav .nav-list li{
+    border-right:2px solid #EE4266;
+    margin:2px;
+    
+}
+
+
+#main-nav .nav-list, a:link, a:visited{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: var(--work-sans);
+    margin-right: 5px;
+    margin-bottom: 3rem;
+}
+
+
+/* ---------------------Services Section----------------------------- */
+
+#title-services{
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.3rem;
+  color: var(--paradise-pink);
+  font-size: 3rem;
+  font-family: var(--cinzel);
+ 
+  
+}
+
+
+#title-services::before{
+    background: url("services.png");
+    background-position: bottom;
+    opacity: 0.4;
+    content: "";
+    position: absolute;
+    top: 14vh;
+    left: 0;
+    height: 160px;
+    width: 100vw;
+    background-repeat:no-repeat;
+    z-index: -999;
+    
+
+  
+}
+#services{
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+   
+  
+}
+
+#services .women{
+  flex: 0 0 50vw;
+  text-align: start;
+ 
+  align-self: flex-start;
+}
+
+
+#services .men{
+    flex: 0 0 50vw;
+    text-align: start;
+    
+    align-self: flex-start;
+}
+
+
+
+#services .women ul li{
+    list-style: none;
+    font-size: 0.7rem;
+    line-height: 2;
+    font-family: var(--oxygen);
+   
+    
+}
+#services .men ul li{
+    list-style: none;
+    font-size: 0.7rem;
+    line-height: 2;
+    margin-left: 0.45rem;
+    font-family: var(--oxygen);
+   
+}
+
+
+#services .women #women{
+  
+    color: var(--paradise-pink);
+    color: #fff;
+    margin-bottom: 1.5rem;
+    margin-left: 0.7rem;
+    font-size:1.5rem
+  }
+
+  #services .men #men{
+     color: #fff;
+     margin-bottom: 1.5rem;
+     margin-left: 1rem;
+     font-size:1.5rem;
+    
+
+     
+  }
+
+  #services .women .service-list{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0.7rem;
+      border-right: 0.9px solid var(--paradise-pink);
+      
+     
+  }
+
+  #services .men .service-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.7rem;
+    
+        
+    
+}
+  #services .women .service-list .first-letter{
+      color:var(--paradise-pink);
+      font-size:0.9rem;
+  }
+
+  #services .men .service-list .first-letter{
+    color:var(--paradise-pink);
+    font-size:0.9rem;
+}
+
+
+
+
+/* Media queries for ipad portrait and landscape */
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1){
+      #brand-logo{
+          height: 15vh;
+         
+      }
+      #brand-logo #brand-container h1{
+        font-size: 6rem;
+        margin-left: 10px;
+        }
+        
+        #brand-logo #brand-container h2{
+            font-size: 5rem;
+            margin-right: 10px;
+        
+        }
+        #main-nav .nav-list, a:link, a:visited{
+            font-size: 3rem;
+            margin-right: 10px;
+        }
+
+        #main-nav .nav-list li{
+            margin:7px
+        }
+
+  }
