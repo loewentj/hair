@@ -297,7 +297,8 @@ a:visited {
 }
 
 #contact{
-    scroll-margin-bottom: 100px;
+    /* scroll-margin-bottom: 100px; */
+    scroll-padding-top: 600px;
 }
 .form{
     margin-top: 3rem;
