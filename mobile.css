@@ -22,6 +22,10 @@
     --cinzel: 'Cinzel', serif;
 
 }
+html{
+    scroll-behavior: smooth;
+   
+}
 
 /* ----------------------header--------------------------- */
 
@@ -292,7 +296,9 @@ a:visited {
     font-size: 0.9rem;
 }
 
-
+#contact{
+    scroll-margin-bottom: 100px;
+}
 .form{
     margin-top: 3rem;
     text-align: center;
