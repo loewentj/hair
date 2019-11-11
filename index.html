@@ -31,7 +31,7 @@
             <ul class="nav-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Gallery</a></li>
             </ul>
         </div>
@@ -71,20 +71,29 @@
                             <li><span class="first-letter">T</span>ints - Ammonia free</li>
                     </ul>
             </div>
-            
-           
+            <div class="form" id="contact">
+            <form action="" method="POST" class="frm-contact">
+                <Fieldset>
+                      <legend>Contact Us</legend>
+                      <input type="text" name="firstname" id="firstname"placeholder="FirstName" required>
+                      <input type="text" name="lastname" id="lastname" placeholder="LastName" required>
+                      <input type="email" name="email" id="email" placeholder="Email" required>
+                      <input type="tel" name="phone" id="phone" placeholder="Phone" required>
+                     
+                      
+  
+                </Fieldset>  
+                <button type="submit" class="btn-submit">Submit</button>
+              </form>
+            </div>
 
         </article>
-        
-        <section>
-
-        </section>
-    
     </main>
-
-    <footer>
-
-    </footer>
+        <aside>
+          
+            </aside>
+        
+  
     <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+Trolley Grey
+#7E7E7E
+
+Arsenic
+#424242
+
+Paradise Pink
+#EE4266
+
+Silver Pink
+#CCB7AE
+
+Jet
+#303030
+
+
+Fonts
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script|Domine|Oxygen|Quicksand|Rubik|Work+Sans&display=swap" rel="stylesheet">
+
+font-family: 'Rubik', sans-serif;
+font-family: 'Work Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Domine', serif;
+font-family: 'Cinzel', serif;
