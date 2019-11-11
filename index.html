@@ -29,10 +29,10 @@
     <nav>
         <div id="main-nav">
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#brand-logo">Home</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#">Gallery</a></li>
+                <li><a href="#gallery">Gallery</a></li>
             </ul>
         </div>
     </nav>
@@ -86,12 +86,40 @@
                 <button type="submit" class="btn-submit">Submit</button>
               </form>
             </div>
+            <div class="slideshow-container" id="gallery">
 
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="beauty-salon.jpg" style="width:100%">
+                  <div class="text">Luxurious</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="haircut2.jpg" style="width:100%">
+                  <div class="text">Styling</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="hairdresser.jpg" style="width:100%">
+                  <div class="text">Skillful</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
         </article>
     </main>
-        <aside>
-          
-            </aside>
+        
         
   
     <script src="app.js"></script>
