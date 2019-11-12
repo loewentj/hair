@@ -300,6 +300,21 @@ a:visited {
     /* scroll-margin-bottom: 100px; */
     scroll-padding-top: 600px;
 }
+#phone-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 1rem;
+}
+#phone-us a:link{
+    text-decoration: none;
+    color: fuchsia;
+    text-align: center;
+    font-size: 1.5rem;
+    justify-self: center;
+    align-self: center;
+}
 .form{
     margin-top: 3rem;
     text-align: center;
@@ -394,6 +409,18 @@ height: 500x;
         color: var(--paradise-pink);
     }
   
+    .hours #google{
+     display: flex;
+     width: 100vw;
+     justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+       
+    }
+    .hours #map{
+        width: 80%;
+        height: 300px;
+    }
 
     .form .frm-contact .btn-submit{
         padding: 10px;
@@ -626,6 +653,17 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
         font-size: 2.9rem;
     }
+
+    
+       
+    #phone-us a:link{
+        text-decoration: none;
+        color: fuchsia;
+        text-align: center;
+        font-size: 2.5rem;
+        justify-self: center;
+        align-self: center;
+    }
     .form .frm-contact fieldset input{
    
         width: 50%;
@@ -681,6 +719,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin:2rem 3rem;
        
       
+    }
+    .hours #map{
+        width: 40%;
+        height: 300px;
+       
     }
     
 }
