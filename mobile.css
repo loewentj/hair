@@ -318,6 +318,7 @@ height: 500x;
 
 .form .frm-contact legend{
    color: var(--paradise-pink);
+   font-family: var(--domine);
   /* margin-left: 1rem;
   margin-right: 1rem; */
 
@@ -337,6 +338,62 @@ height: 500x;
    border-left: 1px solid var(--paradise-pink);
   
     } 
+
+    #text-area{
+        width: 90%;
+        border-color: var(--paradise-pink);
+    }
+    .opening-hours h3{
+        font-family: var(--domine);
+        color: var(--paradise-pink);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 100vw;
+        display: block;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .hours .days{
+        display: flex;
+        
+        flex-wrap: wrap;
+        width: 100vw;
+        /* align-items: center; */
+        justify-content: flex-end;
+        align-items: center;
+      /* margin-left: 15%; */
+        
+        
+        
+       
+    }
+
+    .hours .days li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        flex: 0 0 45%;
+        font-family: var(--oxygen);
+       
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding:35px;
+       
+        font-size: 1rem;
+
+     
+    }
+    
+    .hours .days li p{
+       padding-top: 0.5rem;
+        font-size: 0.7rem;
+    }
+    .hours .days li:nth-child(5),.hours .days li:nth-child(1){
+        color: var(--paradise-pink);
+    }
+  
 
     .form .frm-contact .btn-submit{
         padding: 10px;
@@ -595,13 +652,37 @@ and (-webkit-min-device-pixel-ratio: 1) {
            border-left: 1px solid var(--paradise-pink);
           
             } 
-
+            #text-area{
+                width: 50%;
+                font-size: 2.8rem;
+            }
             .form .frm-contact .btn-submit{
                 width: 50%;
                 margin: 0 auto;
                 padding: 10px;
                 margin-bottom: 5rem;
             }
+            
+    .opening-hours h3{
+       
+       
+        font-size: 4rem;
+    }
+
+  
+
+    .hours .days li{
+        
+        
+        
+        font-size: 2rem;
+        
+        padding: 0;
+        margin:2rem 3rem;
+       
+      
+    }
+    
 }
 
 
